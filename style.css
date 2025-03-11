@@ -109,30 +109,7 @@ header .title .info-card .col-md-6 .info {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  nav {
-    padding: 24px 6PX;
-    
-  }
-  .logo {
-    font-size: 1rem;
-  }
-  header {
-    background-position: center 50px;
-    background-size: 250% auto;
-    background-attachment: scroll;
-    padding: 140px 96px 224px 96px;
-  }
-  header .title .title-name h1 {
-    font-size: 2.5rem;
-  }
-  header .title .title-name h5 {
-    font-size: 1rem;
-  }
-  header .title .title-name h1::after {
-    margin: 12px auto 24px auto;
-  }
-}
+
 #our_story {
   background-image: url(https://www.ohio.edu/sites/default/files/styles/max_1300x1300/public/2022-03/20170811south_green_summer_drone_bws%20%281%29.jpg?itok=F49Rm5Q0);
   padding: 112px 0px;
@@ -273,13 +250,35 @@ header .title .info-card .col-md-6 .info {
   font-size: 1rem;
 }
 @media (max-width: 768px) {
-  #register .row{
+  /* #register .row{
     transform: scale(0.8)
+  } */
+  #transportation p{
+    font-size: 0.9rem;
   }
-  #transportation h5{
-    font-size: 1rem;
+  #wedding_info p{
+    font-size: 0.9rem;
   }
-  #wedding_info  h5{
-    font-size: 1rem;
+}
+@media (max-width: 768px) {
+  nav {
+    padding: 24px 6PX;
+    
+  }
+  
+  header {
+    background-position: center 0px;
+    background-size: 300% auto;
+    background-attachment: scroll;
+    padding: 140px 96px 224px 96px;
+  }
+  header .title .title-name h1 {
+    font-size: 1.8rem;
+  }
+  header .title .title-name h5 {
+    font-size: 0.7rem;
+  }
+  header .title .title-name h1::after {
+    margin: 12px auto 24px auto;
   }
 }
