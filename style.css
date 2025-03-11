@@ -281,4 +281,11 @@ header .title .info-card .col-md-6 .info {
   header .title .title-name h1::after {
     margin: 12px auto 24px auto;
   }
+  #our_story {
+    background-image: url(https://www.ohio.edu/sites/default/files/styles/max_2600x2600/public/2024-07/Living-Learning-Athens_Hero.jpg?itok=WgPfl23R);
+    
+  }
+  #our_story .story-text {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
 }
