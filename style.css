@@ -118,7 +118,7 @@ header .title .info-card .col-md-6 .info {
     font-size: 1rem;
   }
   header {
-    background-position: -350px -50px;
+    background-position: center -50px;
     background-size: 250% auto;
     background-attachment: scroll;
     padding: 180px 96px 324px 96px;
