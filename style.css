@@ -66,6 +66,7 @@ header {
   background-blend-mode: lighten;
   background-position: 0px -176px;
   padding: 264px 96px 524px 96px;
+  width: 100vw
 }
 
 header .title {
