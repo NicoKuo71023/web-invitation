@@ -187,7 +187,7 @@ header .title .info-card .col-md-6 .info {
 }
 #transportation .map {
   margin: 4rem 0px;
-  border-top: solid 8px #ebdfc7;
+  /* border-top: solid 8px #ebdfc7; */
 }
 .gmap_btn {
   margin-top: 5000px;
@@ -319,10 +319,10 @@ header .title .info-card .col-md-6 .info {
   }
   
   header {
-    background-position: center -72px;
+    background-position: -280px 28px;
     background-size: 300% auto;
     background-attachment: scroll;
-    padding: 140px 96px 224px 96px;
+    padding: 140px 96px 324px 96px;
     z-index: 1;
   }
   header .title .title-name h1 {
@@ -348,6 +348,9 @@ header .title .info-card .col-md-6 .info {
   .mb-info p{
     font-size: 1.15rem;
   }
+  .mb-invite {
+    font-size: 0.9rem;
+  }
   #our_story {
     padding: 112px 0px;
     position: relative; /* 讓子元素 (img) 受控於這個區塊 */
@@ -371,7 +374,7 @@ header .title .info-card .col-md-6 .info {
     height: 100%; /* 確保填滿 */
     object-fit: cover; /* 讓圖片完全覆蓋區塊，不變形 */
     z-index: 0; /* 讓背景圖片位於內容下方 */
-}
+ }
   #our_story .story-text {
     background-color: rgba(255, 255, 255, 0.7);
   }
@@ -400,6 +403,8 @@ header .title .info-card .col-md-6 .info {
     opacity: 0;
     display: none;
   }
-  
+  #transportation a {
+    margin-top:2rem
+  }
 }
 
