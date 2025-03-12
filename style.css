@@ -111,10 +111,12 @@ header .title .info-card .col-md-6 .info {
 
 
 #our_story {
-  background-image: url("./images/our_story_bg.jpg");
+  /* background-image: url("./images/our_story_bg.jpg"); */
   padding: 112px 0px;
-  background-size: cover;
-  background-attachment: fixed;
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  position: relative;  /* 讓子元素 (img) 受控於這個區塊 */
+  overflow: hidden; 
 }
 #our_story .story-text {
   background-color: rgba(255, 255, 255, 0.6);
@@ -329,7 +331,7 @@ header .title .info-card .col-md-6 .info {
     z-index: -1; */
   }
   .our-story-bg {
-    position: fixed;     /* Stays in place */
+    /* position: fixed;     
     top: 0;
     left: 0;
     width: 100vw;
@@ -337,7 +339,14 @@ header .title .info-card .col-md-6 .info {
     background-image: url("./images/our_story_bg.jpg");
     background-size: cover;
     background-position: center;
-    z-index: -100;
+    z-index: -100; */
+    position: fixed; /* 讓圖片固定在這個區塊 */
+    top: 0;
+    left: 0;
+    width: 100%; /* 確保圖片填滿整個區塊 */
+    height: 100%; /* 確保填滿 */
+    object-fit: cover; /* 讓圖片完全覆蓋區塊，不變形 */
+    z-index: -1; /* 讓背景圖片位於內容下方 */
 }
   #our_story .story-text {
     background-color: rgba(255, 255, 255, 0.7);
