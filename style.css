@@ -238,10 +238,23 @@ header .title .info-card .col-md-6 .info {
   background-image: url("../images/大理石背景.jpg");
 
   background-size: cover;
-  background-color: rgba(255, 255, 255, 0.6);
-  background-blend-mode: lighten;
+  /* background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten; */
 }
-
+#register .row {
+  z-index: 2;
+}
+#register::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.6;
+  z-index: 1;
+}
 #register .btn {
   margin: 16px;
   background-color: #d4a243;
@@ -371,7 +384,7 @@ header .title .info-card .col-md-6 .info {
     background-blend-mode: lighten;
   }
   #transportation::before {
-    opacity: 0.8;
+    opacity: 0;
     display: none;
   }
   
