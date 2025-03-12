@@ -9,3 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+// window.addEventListener('scroll', function() {
+//   let scrollY = window.scrollY;
+//   document.getElementById('our_story').style.backgroundPosition = `center ${scrollY * 0.5}px`;
+// });
