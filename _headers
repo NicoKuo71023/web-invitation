@@ -1,7 +1,5 @@
 / 
   X-Robots-Tag: noindex, nofollow
 
-/images/*
-  Cache-Control: public, max-age=31536000, immutable
-  
+
 /images/:image /_ipx/f_auto,q_auto/:image 200
