@@ -6,6 +6,8 @@
     <title>Nico & Yuri</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 </head>
 <body>
@@ -80,9 +82,10 @@
       <div class="col-md-4"></div>
       <div class="col-md-4">
         <h1>GETTING THERE</h1>
-        <div class="row map">
+        <div class="row map d-none d-md-block">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.62021774962!2d121.55088257691213!3d25.080858236400243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ac0e0cb382c9%3A0x93f8899bf54138e7!2z5Y-w5YyX576O56aP5aSn6aOv5bqX!5e0!3m2!1szh-TW!2stw!4v1741692386557!5m2!1szh-TW!2stw" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        
         <div class="row">
           <div class="col-md-6">
             <h5>Transportation</h5>
@@ -90,8 +93,19 @@
           </div>
           <div class="col-md-6">
             <h5>Driving</h5>
-            <p>美福大飯店 - 飯店地下停車場 (免費4小時)</p>
+            <p>
+              <span class="d-none d-md-inline">美福大飯店 - </span>
+              飯店地下停車場 (免費4小時)
+            </p>
           </div>
+
+          <a class="btn gmap_btn d-block d-sm-none no-style" href="https://maps.app.goo.gl/ARq1F3rXFn8JRS17A">
+              <i class="fa fa-map-marker"></i>
+              Google Map
+          </a>
+            
+
+            
         </div>
       </div>
       <div class="col-md-4"></div>
