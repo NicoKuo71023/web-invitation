@@ -111,13 +111,14 @@ header .title .info-card .col-md-6 .info {
 
 
 #our_story {
-  /* background-image: url("./images/our_story_bg.jpg"); */
+  background-image: url("./images/our_story_bg.jpg");
   padding: 112px 0px;
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
+  background-size: cover;
+  background-attachment: fixed;
   position: relative;  /* 讓子元素 (img) 受控於這個區塊 */
   overflow: hidden; 
 }
+
 #our_story .story-text {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
@@ -188,24 +189,27 @@ header .title .info-card .col-md-6 .info {
   border-top: solid 8px #ebdfc7;
 }
 .gmap_btn {
+  margin-top: 5000px;
   width: auto;
   padding: 16px 24px;
-  background-color: rgba(247, 233, 232, 0.8);
-  color: #d4a243;
-  font-size: 1.3rem;
-  border: solid 1px #d4a243;
+  background-color: #d4a243;
+  color: white;
+  font-size: 1.1rem;
+  /* border: solid 1px #d4a243; */
   margin: auto;
   
 }
 .gmap_btn a{
   width: 100%;
   height: 100%;
+  background-color: #d4a243;
   text-decoration: none; /* 移除底線 */
-  color: #d4a243; /* 設定初始顏色 */
+  color: white; 
 }
+
 .gmap_btn:hover {
   color: white;
-  background-color: #d4a243;
+  background-color: rgba(212, 162, 67, 0.7);
 }
 #transportation::before {
   content: "";
@@ -238,18 +242,20 @@ header .title .info-card .col-md-6 .info {
   background-blend-mode: lighten;
 }
 
-#register .btn-primary {
+#register .btn {
   margin: 16px;
-  background-color: rgba(255, 255, 255, 0);
-  color: #d4a243;
-  border-color: #d4a243;
+  background-color: #d4a243;
+  color: white;
+  border: none;
   transition: 0.2s;
   font-size: 1.2rem;
   padding: 8px 20px;
 }
-#register .btn-primary:hover {
-  background-color: #d4a243;
-  color: #fafafa;
+
+#register .btn:hover {
+  background-color: rgba(212, 162, 67, 0.7);
+  /* border-color: rgba(212, 162, 67, 0.6); */
+  /* color: black; */
 }
 
 #register {
@@ -295,11 +301,10 @@ header .title .info-card .col-md-6 .info {
 @media (max-width: 768px) {
   nav {
     padding: 24px 6PX;
-    
   }
   
   header {
-    background-position: center 0px;
+    background-position: center -72px;
     background-size: 300% auto;
     background-attachment: scroll;
     padding: 140px 96px 224px 96px;
@@ -313,22 +318,25 @@ header .title .info-card .col-md-6 .info {
   header .title .title-name h1::after {
     margin: 12px auto 24px auto;
   }
+  .mb-info {
+    padding-top: 3rem;
+  }
+  .mb-info .line::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 64px;
+    background-color: #d4a243;
+    margin: 16px auto -12px auto;
+  }
+  .mb-info p{
+    font-size: 1.15rem;
+  }
   #our_story {
-    /* background-image: url(https://www.ohio.edu/sites/default/files/styles/max_2600x2600/public/2024-07/Living-Learning-Athens_Hero.jpg?itok=WgPfl23R); */
-    /* background-image: url("./images/our_story_bg.jpg"); */
-    /* background-size: calc(100% + 1300px);
-    background-position: center;
-    background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: url("./images/our_story_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    z-index: -1; */
+    padding: 112px 0px;
+    position: relative; /* 讓子元素 (img) 受控於這個區塊 */
+    overflow: hidden;
+    background-color: transparent; /* 設為透明 */
   }
   .our-story-bg {
     /* position: fixed;     
@@ -351,4 +359,18 @@ header .title .info-card .col-md-6 .info {
   #our_story .story-text {
     background-color: rgba(255, 255, 255, 0.7);
   }
+  #transportation {
+    border-top: solid 12px #ebdfc7;
+    border-bottom: solid 12px #ebdfc7;
+    padding: 72px;
+    background-image: url("../images/大理石背景.jpg");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+  }
+  #transportation::before {
+    opacity: 0.8;
+    display: none;
+  }
+  
 }
