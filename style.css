@@ -284,6 +284,9 @@ header .title .info-card .col-md-6 .info {
   display: block;
   z-index: 1;
 }
+.btn-a {
+  
+}
 #register h1::after {
   content: "";
   display: block;
