@@ -319,8 +319,9 @@ header .title .info-card .col-md-6 .info {
   }
   
   header {
-    background-position: -280px 28px;
-    background-size: 300% auto;
+    /* background-position: -280px 28px; */
+    background-position: center;
+    background-size: cover;
     background-attachment: scroll;
     padding: 140px 96px 324px 96px;
     z-index: 1;
