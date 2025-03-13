@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+
+@font-face {
+  font-family: 'Iansui';
+  src: url('/fonts/Iansui-Regular.woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   position: relative;
-  font-family: "Cinzel Decorative", serif;
+  font-family: "Cinzel Decorative", "Iansui", serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
