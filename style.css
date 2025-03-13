@@ -323,11 +323,14 @@ header .title .info-card .col-md-6 .info {
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-    padding: 140px 96px 324px 96px;
+    padding: 140px 48px 324px 48px;
     z-index: 1;
+    /* padding: 264px 64px 524px 64px; */
   }
+  
   header .title .title-name h1 {
     font-size: 1.8rem;
+    
   }
   header .title .title-name h5 {
     font-size: 0.7rem;
